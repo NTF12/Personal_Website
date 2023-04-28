@@ -1,0 +1,11 @@
+h1 {
+    color: blueviolet
+}
+
+body {
+    background-color: skyblue
+}
+section.groove {border-style: groove;}
+p {
+    margin-top: 100px;
+}
