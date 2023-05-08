@@ -1,11 +1,31 @@
 h1 {
-    color: blueviolet
-}
+    border: 10px ridge rgb(45, 132, 179);
+    display: flex; 
+    color: rgb(95, 125, 234);
+    flex-direction: row;
+    justify-content: center;
 
+}
+h2 {
+    border: 5px groove rgb(93, 167, 207);
+    display: flex; 
+    color: rgb(67, 132, 224);
+    flex-direction: row;
+    justify-content: center;
+}
+h3 {
+    border: 5px dashed rgb(7, 44, 63);
+    display: flex; 
+    color: rgb(17, 44, 76);
+    flex-direction: row;
+    justify-content: center;
+}
 body {
     background-color: skyblue
 }
-section.groove {border-style: groove;}
-p {
-    margin-top: 100px;
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
